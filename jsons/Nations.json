@@ -3,10 +3,10 @@
 		"name": "Sumer",
 		"leaderName": "Gilgamesh",
 		"adjective": ["Sumerian"],
-		"startBias": ["Flood plains"],
+		"startBias": ["Food plains"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBD",
+		"startIntroPart1": "Summeria",
 		"startIntroPart2": "TBD",
 		
 		"declaringWar": "That's enough, prepare to be smashed into the dust!",
@@ -38,18 +38,18 @@
 	},
 	{
 		"name": "Israeli",
-		"leaderName": "Solomon",
+		"leaderName": "David",
 		"adjective": ["Israeli"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]","Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "Kingdom of Israel",
+		"startIntroPart2": "Oh I favor you than your son Solomon, who was the wisest of all but ruin the kingdom that God has set apart from the world.",
 		
 		"declaringWar": "The Lord demands justice!",
 		"attacked": "The Lord told me your plans. We are prepared!",
 		"defeated":  "Is this how my peaceful reign ends? In a river of blood and suffering...",
-		"introduction":  "I am Solomon, King of the Chosen People. If you seek justice or advice, know that you had found them.",
+		"introduction":  "I am David, King of the Chosen People. If you seek justice or advice, know that you had found them.",
 		
 		"neutralHello": "Greetings, friend.",
 		"neutralLetsHearIt": ["Yes.","Let's discuss."],
