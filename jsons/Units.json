@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Bireme",
-		"unitType": "WaterRanged",
+		"unitType": "Ranged Combat Ship",
 		"uniqueTo": "Phoenician",
 		"replaces": "Trireme",
 		"movement": 3,
@@ -26,7 +26,7 @@
 	},
 	{
 		"name": "Heavy Chariot",
-		"unitType": "Melee",
+		"unitType": "Assault",
 		"uniqueTo": "The Hittites",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -37,13 +37,13 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Shock I","Cover I"],
-		"uniques": ["No defensive terrain bonus","Bonus vs Melee 25%","Rough terrain penalty","Penalty vs City 25%"],
+		"uniques": ["No defensive terrain bonus","Bonus vs Assault 25%","Rough terrain penalty","Penalty vs City 25%"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Phalanx",
-		"unitType": "Melee",
+		"unitType": "Assault",
 		"uniqueTo": "Sumer",
 		"replaces": "Spearman",
 		"movement": 2,
@@ -53,12 +53,12 @@
 		"requiredTech": "Mining",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Bonus vs Melee 50%","Bonus vs Mounted 100%","+[25]% Strength when defending"],
+		"uniques": ["Bonus vs Assault 50%","Bonus vs Rider 100%","+[25]% Strength when defending"],
 		"attackSound": "nonmetalhit"
 	},
 		{
 		"name": "Jagunjagun",
-		"unitType": "Melee",
+		"unitType": "Assault",
 		"uniqueTo": "Nok",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -72,7 +72,7 @@
 	},
 	{
 		"name": "Artaxiad Noble",
-		"unitType": "Mounted",
+		"unitType": "Assault",
 		"uniqueTo": "Armenian",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -89,7 +89,7 @@
 		{
 		"name": "Slave Hunter",
 		"unitType": "Scout",
-		"replaces": "Scout",
+		"replaces": "Adventurer",
 		"uniqueTo": "Macrobia",
 		"movement": 3,
 		"strength": 6,
@@ -100,9 +100,9 @@
 		"promotions": ["Charge"],
 		"attackSound": "nonmetalhit"
 	},
-		{
+	{
 		"name": "Serpent Priest",
-		"unitType": "Melee",
+		"unitType": "Assault",
 		"uniqueTo": "Olmec",
 		"replaces": "Spearman",
 		"movement": 2,
@@ -118,7 +118,7 @@
 	{	
 		"name": "Sun Archer",
 		"replaces": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Ranged Combat",
 		"uniqueTo": "Himyar",
 		"movement": 2,
 		"strength": 5,
@@ -130,9 +130,9 @@
 		"promotions": ["Mobility","Accuracy I"],
 		"attackSound": "arrow"
 	},
-		{
+	{
 		"name": "Tarantine Cavalry",
-		"unitType": "Ranged",
+		"unitType": "Ranged Combat",
 		"uniqueTo": "Epirus",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -146,7 +146,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 33%","May withdraw before melee ([133]%)"],
 		"attackSound": "arrow"
 	},
-		{	
+	{	
 		"name": "Nomadic Archer",
 		"replaces": "Archer",
 		"unitType": "Ranged",
@@ -161,7 +161,7 @@
 		"promotions": ["Mount I"],
 		"attackSound": "arrow"
 	},
-		{
+	{
 		"name": "General",
 		"replaces": "Settler",
 		"unitType": "Civilian",
